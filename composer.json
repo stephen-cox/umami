@@ -31,6 +31,7 @@
         "drupal/core": "8.5.1",
         "drupal/demo_umami": "dev-master",
         "drupal/devel": "^1.2",
+        "drupal/drupal-extension": "~3.0",
         "drupal/umami": "dev-dev",
         "drush/drush": "~9",
         "webflo/drupal-finder": "^1.0.0",
@@ -51,6 +52,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "bin-dir": "bin/",
         "sort-packages": true
     },
     "autoload": {

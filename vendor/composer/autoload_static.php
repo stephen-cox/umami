@@ -12,8 +12,8 @@ class ComposerStaticInitbad48ee4937f4e820ad66a2f63909726
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
@@ -463,6 +463,7 @@ class ComposerStaticInitbad48ee4937f4e820ad66a2f63909726
         array (
             0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
             1 => __DIR__ . '/..' . '/behat/mink-goutte-driver/src',
+            2 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (
@@ -484,6 +485,13 @@ class ComposerStaticInitbad48ee4937f4e820ad66a2f63909726
             'org\\bovigo\\vfs\\' => 
             array (
                 0 => __DIR__ . '/..' . '/mikey179/vfsStream/src/main/php',
+            ),
+        ),
+        'W' => 
+        array (
+            'WebDriver' => 
+            array (
+                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
             ),
         ),
         'T' => 
@@ -531,6 +539,26 @@ class ComposerStaticInitbad48ee4937f4e820ad66a2f63909726
         ),
         'D' => 
         array (
+            'Drupal\\Tests\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/tests',
+            ),
+            'Drupal\\Exception' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\DrupalExtension' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\Drupal' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
+            ),
             'Doctrine\\Common\\Lexer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
@@ -550,6 +578,29 @@ class ComposerStaticInitbad48ee4937f4e820ad66a2f63909726
             'Dflydev\\DotAccessConfiguration' => 
             array (
                 0 => __DIR__ . '/..' . '/dflydev/dot-access-configuration/src',
+            ),
+        ),
+        'B' => 
+        array (
+            'Behat\\Transliterator' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/transliterator/src',
+            ),
+            'Behat\\Testwork' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/behat/src',
+            ),
+            'Behat\\MinkExtension' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/mink-extension/src',
+            ),
+            'Behat\\Gherkin' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/gherkin/src',
+            ),
+            'Behat\\Behat' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/behat/src',
             ),
         ),
     );
