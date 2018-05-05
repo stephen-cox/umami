@@ -1,0 +1,9 @@
+test:
+  uri: http://umami.test.localhost
+  root: /var/www/umami/web
+  host: test.localhost
+
+live:
+  uri: http://umami.live.localhost
+  root: /var/www/umami/web
+  host: live.localhost
