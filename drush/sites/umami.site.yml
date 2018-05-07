@@ -2,8 +2,10 @@ test:
   uri: http://umami.test.localhost
   root: /var/www/umami/web
   host: test.localhost
+  user: vagrant
 
 live:
   uri: http://umami.live.localhost
   root: /var/www/umami/web
   host: live.localhost
+  user: vagrant
