@@ -32,6 +32,7 @@
         "drupal/demo_umami": "dev-master",
         "drupal/devel": "^1.2",
         "drupal/drupal-extension": "~3.0",
+        "drupal/stage_file_proxy": "^1.0-alpha1",
         "drupal/umami": "dev-dev",
         "drush/drush": "~9",
         "webflo/drupal-finder": "^1.0.0",
